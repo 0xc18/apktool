@@ -17,14 +17,14 @@ jobs:
         run: java -jar apktool.jar --version
 
       - name: Verify Apktool
-        run: java -jar apktool.jar d app.apk
+        run: java -jar apktool.jar d -s app.apk
 
       - name: Verify Apktool
         run: cat net.xml > cat app/res/xml/network_security_config.xml
 
       - name: Build APK
         run: |
-          java -jar apktool.jar b app -o app/dist/app-unsigned.apk
+          java -jar apktool.jar b app
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
