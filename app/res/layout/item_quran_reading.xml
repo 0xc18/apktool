@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/NoorTextAppearance.font24" android:textColor="@color/noor_txt_black_deep" android:id="@id/ayat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/indopakv2" android:textAlignment="textStart" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

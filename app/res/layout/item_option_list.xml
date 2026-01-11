@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_fav" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/noor_ic_favorite" android:tint="@color/noor_txt_ash" app:layout_constraintBottom_toBottomOf="@id/menuName" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/menuName" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="@color/noor_txt_black_deep" android:gravity="center" android:id="@id/menuName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/ic_fav" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

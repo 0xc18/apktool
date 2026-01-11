@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_al_quran" android:layout_width="48.0dip" android:layout_height="wrap_content" android:src="@drawable/noor_bg_quran_mini_player" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@color/noor_txt_black_deep" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/surahTitile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Playing Surah" android:layout_alignTop="@id/ic_al_quran" android:layout_alignBottom="@id/ic_al_quran" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/ic_al_quran" android:layout_alignEnd="@id/controlLayout" />
+    <LinearLayout android:gravity="end" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/controlLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ic_al_quran" android:layout_alignBottom="@id/ic_al_quran" android:layout_marginStart="15.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icPrev" android:layout_width="20.0dip" android:layout_height="48.0dip" android:src="@drawable/noor_ic_prev_play" android:layout_marginEnd="8.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_play_pause" android:layout_width="24.0dip" android:layout_height="48.0dip" android:src="@drawable/noor_ic_play_fill" android:layout_marginEnd="8.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icNext" android:layout_width="20.0dip" android:layout_height="48.0dip" android:src="@drawable/noor_ic_next_music" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</RelativeLayout>

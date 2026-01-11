@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="63.7529dip" android:width="50.0dip" android:viewportWidth="429.0" android:viewportHeight="547.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ic_rays__0" android:pathData="M210.1,273.14L185.79,478.43L149.2,470.71L210.1,273.14Z" />
+    <path android:fillColor="@drawable/$ic_rays__1" android:pathData="M210.09,273.15L314.52,451.63L280.66,467.49L210.09,273.15Z" />
+    <path android:fillColor="@drawable/$ic_rays__2" android:pathData="M210.1,273.11L400.63,353.8L382.98,386.74L210.1,273.11Z" />
+    <path android:fillColor="@drawable/$ic_rays__3" android:pathData="M210.08,273.15L42.32,394.18L66.86,422.37L210.08,273.15Z" />
+    <path android:fillColor="@drawable/$ic_rays__4" android:pathData="M210.09,273.11L3.17,269.93L5.98,307.18L210.09,273.11Z" />
+    <path android:fillColor="@drawable/$ic_rays__5" android:pathData="M210.09,273.04L270.99,75.46L234.4,67.74L210.09,273.04Z" />
+    <path android:fillColor="@drawable/$ic_rays__6" android:pathData="M210.1,273.03L377.86,151.99L353.31,123.81L210.1,273.03Z" />
+    <path android:fillColor="@drawable/$ic_rays__7" android:pathData="M210.09,273.06L417.01,276.24L414.2,238.99L210.09,273.06Z" />
+    <path android:fillColor="@drawable/$ic_rays__8" android:pathData="M210.09,273.02L105.66,94.55L139.52,78.69L210.09,273.02Z" />
+    <path android:fillColor="@drawable/$ic_rays__9" android:pathData="M210.08,273.06L19.55,192.37L37.2,159.43L210.08,273.06Z" />
+    <path android:fillColor="@drawable/$ic_rays__10" android:pathData="M209.7,275.02L415.97,291.65L409.6,328.46L209.7,275.02Z" />
+    <path android:fillColor="@drawable/$ic_rays__11" android:pathData="M210.1,273.14L252.93,475.39L215.79,479.79L210.1,273.14Z" />
+    <path android:fillColor="@drawable/$ic_rays__12" android:pathData="M210.09,273.14L365.48,409.68L338.35,435.39L210.09,273.14Z" />
+    <path android:fillColor="@drawable/$ic_rays__13" android:pathData="M210.09,273.14L89.03,440.8L121.21,459.83L210.09,273.14Z" />
+    <path android:fillColor="@drawable/$ic_rays__14" android:pathData="M210.09,273.14L12.7,335.23L27.1,369.7L210.09,273.14Z" />
+    <path android:fillColor="@drawable/$ic_rays__15" android:pathData="M210.09,273.04L331.15,105.38L298.97,86.35L210.09,273.04Z" />
+    <path android:fillColor="@drawable/$ic_rays__16" android:pathData="M210.09,273.03L407.48,210.95L393.08,176.47L210.09,273.03Z" />
+    <path android:fillColor="@drawable/$ic_rays__17" android:pathData="M210.08,273.04L167.25,70.79L204.39,66.39L210.08,273.04Z" />
+    <path android:fillColor="@drawable/$ic_rays__18" android:pathData="M210.09,273.03L54.7,136.5L81.83,110.79L210.09,273.03Z" />
+    <path android:fillColor="@drawable/$ic_rays__19" android:pathData="M209.69,275.02L14.31,206.89L5.22,243.13L209.69,275.02Z" />
+</vector>

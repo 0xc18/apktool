@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="90.0dip" android:width="90.0dip" android:viewportWidth="90.0" android:viewportHeight="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_family_place_holder__0" android:pathData="M45,0L45,0A45,45 0,0 1,90 45L90,45A45,45 0,0 1,45 90L45,90A45,45 0,0 1,0 45L0,45A45,45 0,0 1,45 0z" />
+    <path android:fillColor="#00000000" android:pathData="M58.334,44.334V48.467C58.334,51.454 58.334,52.947 57.752,54.088C57.241,55.092 56.425,55.908 55.422,56.419C54.281,57 52.787,57 49.8,57H40.2C37.213,57 35.72,57 34.579,56.419C33.576,55.908 32.76,55.092 32.248,54.088C31.667,52.947 31.667,51.454 31.667,48.467V41.534C31.667,38.547 31.667,37.053 32.248,35.912C32.76,34.909 33.576,34.093 34.579,33.582C35.72,33 37.213,33 40.2,33H45.667M54.334,39.667V31.667M50.334,35.667H58.334M50.334,45C50.334,47.946 47.946,50.334 45,50.334C42.055,50.334 39.667,47.946 39.667,45C39.667,42.055 42.055,39.667 45,39.667C47.946,39.667 50.334,42.055 50.334,45Z" android:strokeColor="#ff697586" android:strokeWidth="1.6" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

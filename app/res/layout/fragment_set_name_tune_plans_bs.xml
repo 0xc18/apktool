@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="@dimen/bottom_sheet_content_margin" android:layout_marginEnd="@dimen/bottom_sheet_content_margin">
+        <FrameLayout android:id="@id/layout_showcase_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/caller_choice_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/activity_margin" />
+        <include layout="@layout/bottom_sheet_layout_choice_common" />
+    </LinearLayout>
+    <com.onmobile.rbtsdkui.widget.PlanViewLayout android:id="@id/layout_plan" android:layout_width="fill_parent" android:layout_height="wrap_content" app:footer_text="@string/available_plans_desc" app:header_text="@string/available_plans_title" />
+    <com.onmobile.rbtsdkui.util.customview.RegularTextView android:theme="@style/App.TextView.Multiline" android:textSize="13.0sp" android:textColor="#b3a4a4a6" android:gravity="center" android:layout_gravity="center" android:id="@id/play_for_all_callers_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="26.0dip" android:text="@string/play_for_all_callers_info" android:layout_marginStart="@dimen/activity_margin" android:layout_marginEnd="@dimen/activity_margin" />
+    <FrameLayout android:gravity="center" android:id="@id/set_frame_view" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_set_bg" android:layout_width="110.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@drawable/set_bg_rectangle" />
+        <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="14.0sp" android:textColor="@color/set_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_set_bottom_sheet" android:background="@drawable/set_bottom_new" android:padding="0.0dip" android:layout_width="93.0dip" android:layout_height="42.0dip" android:text="@string/purchase_confirm_confirm" android:textAllCaps="false" />
+    </FrameLayout>
+</LinearLayout>

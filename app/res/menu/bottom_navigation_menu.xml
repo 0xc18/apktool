@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/noor_ic_home_tab" android:id="@id/tab_home" android:title="@string/tab_home" />
+    <item android:icon="@drawable/noor_ic_my_robi_tab" android:id="@id/tab_my_robi" android:title="@string/cat_hadith" />
+    <item android:icon="@drawable/noor_ic_more_tab" android:id="@id/tab_more" android:title="@string/tab_more" />
+</menu>

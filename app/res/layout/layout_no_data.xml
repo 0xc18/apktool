@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/noor_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.43">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgNoInternet" android:background="@null" android:layout_width="140.0dip" android:layout_height="140.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/margin_14" android:textColor="@color/noor_black_secondary" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_data" android:fontFamily="sans-serif-medium" android:textFontWeight="800" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="@dimen/margin_14" android:textColor="@color/ash" android:layout_gravity="center_horizontal" android:id="@id/tvDes" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:fontFamily="@font/notosansbengali_regular" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_tune_parent_layout" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/nametune_item_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/nametune_divider" android:layout_alignParentBottom="true">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/ib_profile_tune_play_layout">
+                <com.onmobile.rbtsdkui.util.customview.LightTextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/name_tune_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/App.TextView.Nametune.Title" />
+                <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="12.0sp" android:textColor="#ffb6b6b6" android:id="@id/name_tune_artist_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/App.TextView.Nametune.Title" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <FrameLayout android:id="@id/set_frame_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_set_bg" android:layout_width="100.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/set_bg_rectangle" />
+                <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/set_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_set_name_tune" android:background="@drawable/set_bottom_new" android:layout_width="60.0dip" android:layout_height="30.0dip" android:text="@string/set_small" android:textAllCaps="false" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/ib_profile_tune_play_layout" android:layout_width="25.0dip" android:layout_height="25.0dip">
+                <androidx.appcompat.widget.AppCompatImageButton android:id="@id/ib_profile_tune_play" android:background="?selectableItemBackgroundBorderless" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_play_accent_24dp" />
+                <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/ib_profile_tune_progress" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" style="@style/Widget.AppCompat.ProgressBar" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

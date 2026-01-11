@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="140.0dip" android:width="402.0dip" android:viewportWidth="402.0" android:viewportHeight="140.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$corporate_banner_bg__0" android:pathData="M18,1L384,1A16,16 0,0 1,400 17L400,121A16,16 0,0 1,384 137L18,137A16,16 0,0 1,2 121L2,17A16,16 0,0 1,18 1z" />
+</vector>

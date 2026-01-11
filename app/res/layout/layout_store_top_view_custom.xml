@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root_view" android:paddingTop="4.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="260.0dip" android:layout_height="wrap_content" android:paddingEnd="@dimen/bottom_sheet_content_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="17.0sp" android:textColor="#ff8d8c90" android:gravity="start" android:id="@id/tv_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/see_more" android:background="?selectableItemBackgroundBorderless" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="8.0dip" android:tint="#ff8d8c90" android:rotation="180.0" android:layout_alignParentEnd="true" android:tintMode="src_atop" app:srcCompat="@drawable/ic_arrow_left_white_24dp" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:orientation="vertical" android:id="@id/ll_tunes_list" android:paddingTop="16.0dip" android:paddingBottom="0.0dip" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+</LinearLayout>

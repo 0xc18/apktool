@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="216.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small_spacing" app:cardBackgroundColor="@color/white" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false" style="@style/CardViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgBg" android:layout_width="0.0dip" android:layout_height="216.0dip" android:src="@drawable/noor_place_holder_1_1_ratio" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/imgBg" app:layout_constraintEnd_toEndOf="@id/imgBg" app:layout_constraintStart_toStartOf="@id/imgBg" app:layout_constraintTop_toTopOf="@id/imgBg" />
+        <RelativeLayout android:gravity="center" android:id="@id/rlShare" android:padding="@dimen/standard_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgBg">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/noor_ic_share" android:layout_centerVertical="true" />
+            <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@color/noor_txt_color" android:id="@id/tvShareAyat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_share" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/small_spacing" android:layout_toEndOf="@id/imgShare" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.onmobile.rbtsdkui.util.customview.BoldTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/chart_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Shuffles" android:layout_marginStart="5.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="11.0sp" android:textColor="#ffff69b4" android:id="@id/see_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See more" android:layout_marginEnd="15.0dip" app:layout_constraintBaseline_toBaselineOf="@id/chart_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="start|bottom" android:orientation="horizontal" android:id="@id/cards_parent_layout" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintTop_toBottomOf="@id/chart_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

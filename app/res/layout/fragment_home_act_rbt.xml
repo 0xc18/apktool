@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:gravity="center" android:id="@id/relative_layout_act_rbt" android:background="@color/store_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/promo_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/promo_banner" />
+        <LinearLayout android:orientation="vertical" android:id="@id/cocp_plan_layout" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/promo_parent">
+            <com.onmobile.rbtsdkui.widget.LabeledView android:id="@id/labeled_my_account" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDivider="true" app:label="@string/profile_my_account" app:valueTextColor="@color/sdkcolorAccent" />
+            <com.onmobile.rbtsdkui.widget.LabeledView android:id="@id/labeled_my_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bottomDivider="true" app:label="@string/label_your_number" app:valueTextColor="@color/sdkcolorAccent" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_below="@id/cocp_plan_layout" app:layout_constraintStart_toStartOf="parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/activity_rbt_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/promo_parent" />
+            <include android:layout_marginTop="80.0dip" layout="@layout/layout_loading" />
+            <include layout="@layout/layout_activity_empty" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

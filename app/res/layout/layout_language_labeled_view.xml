@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root_labeled" android:background="@drawable/language_selection" android:layout_width="130.0dip" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_data_container_labeled" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="?selectableItemBackgroundBorderless" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_rbt_selected_store_item_child" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_check_selected" />
+            <com.onmobile.rbtsdkui.util.customview.LightTextView android:theme="@style/App.TextView.Multiline" android:textSize="@dimen/txt_value_labeled_size" android:textColor="@color/white" android:id="@id/tv_local_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerVertical="true" android:paddingStart="24.0dip" />
+            <com.onmobile.rbtsdkui.util.customview.RegularTextView android:theme="@style/App.TextView.Multiline" android:textSize="12.0sp" android:textColor="#ff8d8c90" android:id="@id/tv_display_name" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_local_name" android:layout_centerVertical="true" android:paddingStart="24.0dip" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_labeled" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/App.Switch" />
+    </LinearLayout>
+</LinearLayout>

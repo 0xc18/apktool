@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="19.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="19.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h32v19h-32z" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M15.883,0.285C18.311,0.285 20.279,2.279 20.279,4.738C20.279,7.197 18.311,9.191 15.883,9.191C13.455,9.191 11.487,7.197 11.487,4.738C11.487,2.279 13.455,0.285 15.883,0.285Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M15.883,9.977C19.254,9.977 22.141,12.42 23.342,15.886C21.411,17.776 18.782,18.938 15.883,18.938C12.984,18.938 10.355,17.776 8.424,15.886C9.625,12.42 12.512,9.977 15.883,9.977Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M25.65,0C27.641,0 29.254,1.635 29.254,3.651C29.254,5.667 27.641,7.302 25.65,7.302C23.66,7.302 22.046,5.667 22.046,3.651C22.046,1.635 23.66,0 25.65,0Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M25.65,7.947C28.415,7.947 30.781,9.95 31.766,12.792C30.183,14.342 28.028,15.295 25.65,15.295C25.236,15.295 24.828,15.266 24.429,15.21C23.708,13.262 22.474,11.543 20.88,10.349C22.082,8.869 23.775,7.947 25.65,7.947Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M6.116,0C8.107,0 9.72,1.635 9.72,3.651C9.72,5.667 8.107,7.302 6.116,7.302C4.126,7.302 2.512,5.667 2.512,3.651C2.512,1.635 4.126,0 6.116,0Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M6.116,7.947C7.991,7.947 9.683,8.87 10.886,10.35C9.292,11.544 8.058,13.263 7.338,15.21C6.939,15.266 6.531,15.295 6.116,15.295C3.739,15.295 1.584,14.342 0,12.792C0.985,9.95 3.352,7.947 6.116,7.947Z" android:fillType="evenOdd" />
+    </group>
+</vector>

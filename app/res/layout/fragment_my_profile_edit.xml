@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/profile_nested_scroll_view" android:paddingTop="@dimen/activity_toolbar_padding_Top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/list_layout" android:paddingTop="@dimen/activity_padding_half" android:paddingBottom="@dimen/activity_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/rv_profile_picture" android:layout_width="105.0dip" android:layout_height="105.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_profile_picture1" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_contct_selectn_icon" />
+                <androidx.appcompat.widget.AppCompatImageView android:gravity="right" android:layout_gravity="right" android:id="@id/iv_profile_picture_edit" android:padding="0.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:rotation="360.0" app:srcCompat="@drawable/edit_fill" />
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout android:padding="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="12.0dip" android:hint="Name" app:shapeAppearanceOverlay="@style/roundedEditText" style="@style/TextInputLayoutOutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:textColor="@color/white" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:padding="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="12.0dip" android:hint="Mobile Number" app:shapeAppearanceOverlay="@style/roundedEditText" style="@style/TextInputLayoutOutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:textColor="@color/white" android:id="@id/tv_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_layout" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="50.0" android:layout_centerHorizontal="true">
+                <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:layout_width="110.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:srcCompat="@drawable/set_bg_rectangle" />
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="14.0sp" android:textColor="@color/set_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_save" android:background="@drawable/contact_button" android:padding="0.0dip" android:layout_width="93.0dip" android:layout_height="42.0dip" android:text="@string/myprofile_done" android:textAllCaps="false" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="50.0" android:layout_centerHorizontal="true">
+                <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:layout_width="110.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="14.0sp" android:textColor="#ffb3b6b9" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_cancel" android:padding="0.0dip" android:layout_width="93.0dip" android:layout_height="42.0dip" android:text="@string/myprofile_cancel" android:textAllCaps="false" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

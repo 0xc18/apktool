@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/noor_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.43">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgNoInternet" android:background="@null" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/noor_bg_no_internet" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/margin_14" android:textColor="@color/noor_black_secondary" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/standard_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/standard_margin" android:text="@string/error_message" android:fontFamily="sans-serif-medium" android:textAlignment="center" android:textFontWeight="800" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/margin_14" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btnRetry" android:background="@drawable/noor_bg_rectangle_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/retry" android:fontFamily="sans-serif" android:textFontWeight="400" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

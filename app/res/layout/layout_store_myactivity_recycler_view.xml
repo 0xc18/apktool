@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/parent_rlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/store_margin" android:paddingStart="@dimen/store_margin" android:paddingEnd="@dimen/store_margin">
+            <LinearLayout android:orientation="vertical" android:id="@id/parent_layout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/tv_item_title_store_main" android:paddingRight="@dimen/track_child_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:paddingEnd="@dimen/track_child_margin" />
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff8d8c90" android:id="@id/tv_item_title_store_main1" android:paddingRight="@dimen/track_child_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_activity_playing_now_text" android:paddingEnd="@dimen/track_child_margin" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageButton android:gravity="top" android:id="@id/btn_item_see_all_store_main" android:background="?selectableItemBackgroundBorderless" android:padding="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_manage_new" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_frag_store_item_child" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/store_margin" />
+        <RelativeLayout android:id="@id/parent_empty_layout2" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/store_margin" android:layout_marginStart="@dimen/store_margin" android:layout_marginEnd="@dimen/store_margin">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/parent_empty_img" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:srcCompat="@drawable/my_activity_empty" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="80.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip">
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="left" android:id="@id/tv_item_empty_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_activity_empty_title" android:maxLines="3" />
+                <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="19.0sp" android:textStyle="normal" android:textColor="@color/white" android:id="@id/tv_item_empty_title2" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_activity_empty_title1" android:layout_alignTop="@id/tv_item_empty_title1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

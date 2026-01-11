@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/storeParentRelativeLayout" android:paddingTop="@dimen/activity_toolbar_padding_Top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/container_content" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/root_minipreview_bottom">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_frag_store_main" android:paddingBottom="@dimen/store_listing_recycler_view_bottom_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </RelativeLayout>
+    <include layout="@layout/layout_loading" />
+    <View android:id="@id/view_layer_minipreview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/bottom_sheet_mini_preview" />
+</RelativeLayout>

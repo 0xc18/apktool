@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_store_item_child" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/card_store_item_child" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_preview_store_item_child" android:background="@color/sdkcolorPrimary" android:layout_width="120.0dip" android:layout_height="240.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintStart_toStartOf="parent" app:shapeAppearanceOverlay="@style/CornerCut" app:srcCompat="@drawable/default_album_art" />
+        <include layout="@layout/layout_download_count_medium" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|top" android:id="@id/iv_rbt_selected_store_item_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:srcCompat="@drawable/ic_rbt_selected" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_toStartOf="@id/tv_set_store_item_child">
+            <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="11.0sp" android:textColor="@color/artist_txt" android:ellipsize="end" android:gravity="start" android:id="@id/tv_artist_store_item_child" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dummy" android:maxLines="1" android:textAlignment="textStart" />
+            <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="12.5sp" android:textColor="@color/track_txt" android:ellipsize="end" android:id="@id/tv_track_store_item_child" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dummy" android:maxLines="1" android:layout_below="@id/tv_artist_store_item_child" android:textAlignment="center" />
+        </RelativeLayout>
+        <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="10.0sp" android:textColor="@color/set_button_text_color" android:layout_gravity="center_vertical" android:id="@id/tv_set_store_item_child" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_small" android:layout_centerVertical="true" android:textAllCaps="false" android:layout_alignParentEnd="true" style="@style/App.TextView.Button" />
+    </RelativeLayout>
+</LinearLayout>

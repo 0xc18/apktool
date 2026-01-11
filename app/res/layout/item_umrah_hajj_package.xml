@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/standard_margin" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/small_spacing" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/pack_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/default_content_des" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/small_spacing">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="@color/black" android:id="@id/titile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/notosansbengali_regular" />
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:id="@id/subtitile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/notosansbengali_regular" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/small_spacing">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="মূল্য শুরু" android:fontFamily="@font/notosansbengali_regular" />
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="@color/colorPrimary" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/notosansbengali_regular" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

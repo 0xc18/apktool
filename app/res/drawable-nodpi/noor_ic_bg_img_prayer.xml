@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="148.0dip" android:width="148.0dip" android:viewportWidth="148.0" android:viewportHeight="148.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$noor_ic_bg_img_prayer__0" android:pathData="M74,72m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/noor_nameItem" android:endColor="@color/noor_nameItem" android:angle="90.0" android:type="linear" android:centerColor="@color/noor_nameItem" />
+    <corners android:radius="5.0dip" />
+    <stroke android:width="0.0dip" android:color="@color/noor_opt_btn_a" />
+</shape>

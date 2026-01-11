@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/track_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start" android:id="@id/track_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:elevation="2.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/shadow_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@id/track_image" app:layout_constraintTop_toTopOf="@id/track_image">
+                <View android:layout_gravity="center" android:id="@id/shadow_1" android:background="@drawable/shadow_track_bg" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="5.0dip" android:elevation="1.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <View android:layout_gravity="center" android:id="@id/shadow_2" android:background="@drawable/shadow_track_bg_white" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="5.0dip" app:layout_constraintStart_toStartOf="@id/shadow_1" app:layout_constraintTop_toTopOf="@id/shadow_1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="11.0sp" android:ellipsize="end" android:id="@id/artist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="15" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffff69b4" android:ellipsize="end" android:id="@id/track_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="18" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>০.২৫x</item>
+        <item>০.৫x</item>
+        <item>০.৭৫x</item>
+        <item>স্বাভাবিক</item>
+        <item>১.২৫x</item>
+        <item>১.৫x</item>
+        <item>২x</item>
+    </string-array>
+    <string-array name="hajj_title">
+        <item>ব্যক্তিগত তথ্য</item>
+        <item>ঠিকানা</item>
+        <item>পেমেন্ট</item>
+    </string-array>
+    <string-array name="hajj_tracker_places">
+        <item>যাত্রা শুরুর স্থান-মক্কা</item>
+        <item>১ম দিন মদিন-মিনা</item>
+        <item>২য় দিন-আরাফাত ময়দান</item>
+        <item>২য় দিন-মুজদালিফা</item>
+        <item>৩য়দিন-জামারাত ব্রিজ</item>
+        <item>৩য়দিন-মক্কা</item>
+        <item>৪র্থ এবং ৫ম দিন – মিনায় অবস্থান</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">myrobi-prod.robi.com.bd</domain>
+        <domain includeSubdomains="true">27.131.15.12</domain>
+        <domain includeSubdomains="true">103.4.145.86</domain>
+        <domain includeSubdomains="true">contentstore.onmobile.com</domain>
+        <domain includeSubdomains="true">onmobile.com</domain>
+        <domain includeSubdomains="true">robi.com.bd</domain>
+        <domain includeSubdomains="true">robi.mife-aoc.com</domain>
+        <domain includeSubdomains="true">robi.igpl.pro</domain>
+        <domain includeSubdomains="true">api.win2gain.com</domain>
+        <domain includeSubdomains="true">he.myrobi.iqra-live.com</domain>
+    </domain-config>
+</network-security-config>

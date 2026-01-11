@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:dither="true" android:startColor="@color/name_tune_gradient_start" android:endColor="@color/name_tune_gradient_end" android:angle="270.0" android:type="linear" />
+    <corners android:topLeftRadius="24.0dip" android:topRightRadius="8.0dip" android:bottomLeftRadius="8.0dip" android:bottomRightRadius="24.0dip" />
+    <stroke android:width="@dimen/set_btn_stroke" android:color="#ff1d2328" />
+</shape>

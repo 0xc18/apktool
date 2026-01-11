@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="bd_districts">
+        <item>নির্বাচন করুন</item>
+        <item>বরগুনা</item>
+        <item>বরিশাল</item>
+        <item>ভোলা</item>
+        <item>ঝালকাঠি</item>
+        <item>পটুয়াখালী</item>
+        <item>পিরোজপুর</item>
+        <item>বান্দরবান</item>
+        <item>ব্রাহ্মণবাড়িয়া</item>
+        <item>চাঁদপুর</item>
+        <item>চট্টগ্রাম</item>
+        <item>কুমিল্লা</item>
+        <item>কক্সবাজার</item>
+        <item>ফেনী</item>
+        <item>খাগড়াছড়ি</item>
+        <item>লক্ষ্মীপুর</item>
+        <item>রাঙ্গামাটি</item>
+        <item>ঢাকা</item>
+        <item>ফরিদপুর</item>
+        <item>গাজীপুর</item>
+        <item>গোপালগঞ্জ</item>
+        <item>কিশোরগঞ্জ</item>
+        <item>মাদারীপুর</item>
+        <item>মানিকগঞ্জ</item>
+        <item>মুন্সীগঞ্জ</item>
+        <item>নারায়ণগঞ্জ</item>
+        <item>নরসিংদী</item>
+        <item>রাজবাড়ী</item>
+        <item>শরীয়তপুর</item>
+        <item>টাঙ্গাইল</item>
+        <item>বাগেরহাট</item>
+        <item>চুয়াডাঙ্গা</item>
+        <item>যশোর</item>
+        <item>ঝিনাইদহ</item>
+        <item>খুলনা</item>
+        <item>কুষ্টিয়া</item>
+        <item>মাগুরা</item>
+        <item>মেহেরপুর</item>
+        <item>নড়াইল</item>
+        <item>সাতক্ষীরা</item>
+        <item>জামালপুর</item>
+        <item>ময়মনসিংহ</item>
+        <item>নেত্রকোণা</item>
+        <item>শেরপুর</item>
+        <item>বগুড়া</item>
+        <item>জয়পুরহাট</item>
+        <item>নওগাঁ</item>
+        <item>নাটোর</item>
+        <item>চাঁপাইনবাবগঞ্জ</item>
+        <item>পাবনা</item>
+        <item>রাজশাহী</item>
+        <item>সিরাজগঞ্জ</item>
+        <item>দিনাজপুর</item>
+        <item>গাইবান্ধা</item>
+        <item>কুড়িগ্রাম</item>
+        <item>লালমনিরহাট</item>
+        <item>নীলফামারী</item>
+        <item>পঞ্চগড়</item>
+        <item>রংপুর</item>
+        <item>ঠাকুরগাঁও</item>
+        <item>হবিগঞ্জ</item>
+        <item>মৌলভীবাজার</item>
+        <item>সুনামগঞ্জ</item>
+        <item>সিলেট</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="custom_months">
+        <item>@string/txt_mohram</item>
+        <item>@string/txt_safar</item>
+        <item>@string/txt_awal</item>
+        <item>@string/txt_sani</item>
+        <item>@string/txt_jomadiul</item>
+        <item>@string/txt_jomadius_sani</item>
+        <item>@string/txt_rajab</item>
+        <item>@string/txt_saban</item>
+        <item>@string/txt_ramjan</item>
+        <item>@string/txt_sawal</item>
+        <item>@string/txt_jilkod</item>
+        <item>@string/txt_jilhazz</item>
+    </string-array>
+    <array name="default_index_gradient">
+        <item>@color/green</item>
+        <item>@color/red</item>
+    </array>
+    <array name="default_track_gradient">
+        <item>@color/seekbar_color1</item>
+        <item>@color/seekbar_color2</item>
+    </array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="hajjDetailsText">
+        <item>যখন হজ শুরু হয় তখন প্রথম গুরুত্বপূর্ণ বিষয় হচ্ছে হজযাত্রীদের তাওয়াফ এবং সা ঈ। প্রথমে হজযাত্রীরা কাবাকে কেন্দ্র করে সাতবার ঘুরে (তাওয়াফ) । তারপর হজযাত্রীরা সাফা ও মারওয়াহ (সা ঈ) পাহাড়ের মাঝখানে সাতবার হাটবে অথবা দৌড়বে, যেমনটি হযরত ইব্রাহীম(আঃ)এর স্ত্রী পানির সন্ধানে দুটো পাহাড়ের মাঝখানে ভ্রান্ত হয়ে দৌড়চ্ছিলেন।</item>
+        <item>৮ই জিলহজ, হজযাত্রীরা মিনায় অবস্থান করেন, যেখানে হাজার হাজার তাঁবু স্থাপন করা হয়েছে। হজযাত্রীরা এখানে রাত্রিযাপন করবে।</item>
+        <item>দ্বিতীয় দিনে, হজযাত্রীরা আরাফাত ময়দানের সমভূমিতে অবস্থান করেন। এই হল সেই স্থান, যেখানে নবী মুহাম্মদ (সাঃ) তার বিদায় হজের ভাষণ দিয়েছিলেন। আরাফাতে সূর্যাস্ত পর্যন্ত অবস্থান করা হজের গুরুত্বপূর্ণ ফরজ।</item>
+        <item>মুযদালিফায় থাকাকালীন পাহাড়ে অথবা তার পাদদেশে যে কোন ঘাসদুবলা থেকে খুঁজে খুঁজে পাথর মারার জন্য ৭২টি (চানা বুটের ন্যায় কঙ্কর) ছোট ছোট পাথর সংগ্রহ করে ইহরামের কাপড়ে বেঁধে নিন।</item>
+        <item>হজযাত্রীরা মিনাতে জামারাত ব্রিজে ফেরত আসবেন শয়তানকে পাথর নিক্ষেপণের জন্য। এইদিন, ১০ইজিলহজ, সারা বিশ্বের মুসলমানদের জন্য ঈদ-উল-আযহা হয়। দিনটি পশুদের বলিদান এবং পরিবার এবং দরিদ্রের সাথে মাংস ভাগ করে চিহ্নিত করা হয়।</item>
+        <item>মিনাতে জামারাত ব্রিজ ত্যাগের পরে হজযাত্রীরা মক্কাতে আরও একটি তাওয়াফ পালন করেন। কিন্তু ক্লান্ত হয়ে পড়ার জন্য কোন বিশ্রাম নেই এবং রাতেই আবার মিনাতে ফেরত যান।</item>
+        <item>হজযাত্রীরা ৩য় দিনের রাত্রি এবং পরের ২ দিন মিনাতে তাবুতে অবস্থান করবেন। হজযাত্রীরা মিনাতে জামারাত ব্রিজে ফেরত আসবেন শয়তানকে পাথর নিক্ষেপণের জন্য, পূর্ব থেকে পশ্চিম দিকে। ৫ম দিনের শেষে, তারা তাদের হজ সম্পন্ন করবেন।</item>
+    </string-array>
+    <string-array name="hajj_title">
+        <item>ব্যক্তিগত তথ্য</item>
+        <item>ঠিকানা</item>
+        <item>পেমেন্ট</item>
+    </string-array>
+    <string-array name="hajj_tracker_places">
+        <item>যাত্রা শুরুর স্থান-মক্কা</item>
+        <item>১ম দিন মদিন-মিনা</item>
+        <item>২য় দিন-আরাফাত ময়দান</item>
+        <item>২য় দিন-মুজদালিফা</item>
+        <item>৩য়দিন-জামারাত ব্রিজ</item>
+        <item>৩য়দিন-মক্কা</item>
+        <item>৪র্থ এবং ৫ম দিন – মিনায় অবস্থান</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>@string/txt_jan</item>
+        <item>@string/txt_feb</item>
+        <item>@string/txt_mar</item>
+        <item>@string/txt_apr</item>
+        <item>@string/txt_may</item>
+        <item>@string/txt_jun</item>
+        <item>@string/txt_jul</item>
+        <item>@string/txt_aug</item>
+        <item>@string/txt_sep</item>
+        <item>@string/txt_oct</item>
+        <item>@string/txt_nov</item>
+        <item>@string/txt_dec</item>
+    </string-array>
+    <string-array name="production">
+        <item>discovery_end_point</item>
+        <item>https://coms.onmohub.com</item>
+        <item>discovery_key</item>
+        <item>robi_sdk_prod</item>
+        <item>catalog_api_end_point</item>
+        <item>https://catalog.contentstore.onmobile.com</item>
+        <item>store_api_end_point</item>
+        <item>https://shop.contentstore.onmobile.com</item>
+        <item>authentication_api_end_point</item>
+        <item>https://shop.contentstore.onmobile.com</item>
+        <item>dummy_purchase_api_end_point</item>
+        <item>https://shop.contentstore.onmobile.com</item>
+        <item>network_utility_host</item>
+        <item>https://shop.contentstore.onmobile.com</item>
+        <item>ssl_domain_name</item>
+        <item>shop.contentstore.onmobile.com</item>
+        <item>certificate_repo_end_point</item>
+        <item>https://certman.onmohub.com</item>
+        <item>certificate_repo_extension</item>
+        <item>/api/pub/cinfo</item>
+        <item>domain_end_point</item>
+        <item>https://shop.contentstore.onmobile.com</item>
+        <item>server_name_catalog</item>
+        <item>catalog</item>
+        <item>server_name_store</item>
+        <item>store</item>
+        <item>server_name_notification</item>
+        <item>notification</item>
+        <item>response_type</item>
+        <item>json</item>
+        <item>versionNumber</item>
+        <item>v3</item>
+        <item>storeID</item>
+        <item>376</item>
+        <item>idea_merger_store_id</item>
+        <item></item>
+        <item>api_auth_key</item>
+        <item></item>
+        <item>api_auth_value</item>
+        <item></item>
+        <item>certificate_pinning_key</item>
+        <item></item>
+    </string-array>
+    <string-array name="tasbih_duas">
+        <item>@string/txt_dua_one</item>
+        <item>@string/txt_dua_two</item>
+        <item>@string/txt_dua_three</item>
+        <item>@string/txt_dua_four</item>
+        <item>@string/txt_dua_five</item>
+        <item>@string/txt_dua_six</item>
+        <item>@string/txt_dua_seven</item>
+        <item>@string/txt_dua_eight</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>@string/txt_sunday</item>
+        <item>@string/txt_monday</item>
+        <item>@string/txt_tuesday</item>
+        <item>@string/txt_wednesday</item>
+        <item>@string/txt_thursday</item>
+        <item>@string/txt_friday</item>
+        <item>@string/txt_saturday</item>
+    </string-array>
+</resources>

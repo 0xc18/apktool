@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_spacing" style="@style/CardViewStyleNoElevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:id="@id/img_card" android:layout_width="144.0dip" android:layout_height="81.0dip" android:layout_marginTop="@dimen/margin_4" android:layout_marginBottom="@dimen/margin_4" android:layout_marginStart="5.0dip" app:cardCornerRadius="@dimen/small_spacing" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/scholars_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/noor_place_holder_16_9_ratio" android:adjustViewBounds="true" android:contentDescription="@string/default_content_des" />
+                <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/scholars_img" android:layout_alignBottom="@id/scholars_img" android:layout_centerHorizontal="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/noor_ic_play_ovelay" android:layout_centerInParent="true" android:contentDescription="@string/default_content_des" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/small_spacing" android:layout_toEndOf="@id/img_card">
+            <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@color/noor_txt_color_black" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+            <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:textColor="@color/noor_black_secondary" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="19.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="19.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h16v19h-16z" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M7.883,0.285C10.311,0.285 12.279,2.279 12.279,4.738C12.279,7.197 10.311,9.191 7.883,9.191C5.455,9.191 3.487,7.197 3.487,4.738C3.487,2.279 5.455,0.285 7.883,0.285Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/set_prebuy_all_caller_color" android:pathData="M7.883,9.977C11.254,9.977 14.141,12.42 15.342,15.886C13.411,17.776 10.782,18.938 7.883,18.938C4.984,18.938 2.355,17.776 0.424,15.886C1.625,12.42 4.512,9.977 7.883,9.977Z" android:fillType="evenOdd" />
+    </group>
+</vector>

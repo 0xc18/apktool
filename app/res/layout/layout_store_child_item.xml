@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/layout_store_item_child" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/card_store_item_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_preview_store_item_child" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true" app:layout_constraintStart_toStartOf="parent" app:shapeAppearanceOverlay="@style/trackImageCut" />
+        <include android:visibility="gone" layout="@layout/layout_download_count_medium" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|top" android:id="@id/iv_rbt_selected_store_item_child" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentLeft="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_rbt_selected" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="8.0dip" android:layout_toStartOf="@id/fr_setview" android:layout_alignParentStart="true">
+            <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="14.0sp" android:textColor="@color/track_txt" android:ellipsize="end" android:id="@id/tv_track_store_item_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dummy" android:maxLines="1" android:textAlignment="viewStart" />
+            <com.onmobile.rbtsdkui.util.customview.RegularTextView android:textSize="12.0sp" android:textColor="@color/artist_txt" android:ellipsize="end" android:gravity="start" android:id="@id/tv_artist_store_item_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/dummy" android:maxLines="1" android:layout_below="@id/tv_track_store_item_child" android:textAlignment="textStart" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fr_setview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/iv_set_bg" android:layout_width="65.0dip" android:layout_height="45.0dip" android:layout_marginRight="-3.0dip" app:srcCompat="@drawable/set_bg_rectangle" />
+            <com.onmobile.rbtsdkui.util.customview.MediumTextView android:textSize="13.0sp" android:textColor="#ff120d00" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_set_store_item_child" android:background="@drawable/set_bottom_new" android:layout_width="50.0dip" android:layout_height="26.0dip" android:layout_marginRight="-3.0dip" android:text="@string/set_small" android:textAllCaps="false" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

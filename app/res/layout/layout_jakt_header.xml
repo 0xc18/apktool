@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgJakatHeader" android:layout_width="160.0dip" android:layout_height="160.0dip" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/imgJakatHeader" app:layout_constraintEnd_toEndOf="@id/imgJakatHeader" app:layout_constraintStart_toStartOf="@id/imgJakatHeader" app:layout_constraintTop_toTopOf="@id/imgJakatHeader" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@color/noor_txt_color_black" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/txt_jakat_description" android:fontFamily="sans-serif" android:textAlignment="textStart" android:textFontWeight="400" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imgJakatHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>
